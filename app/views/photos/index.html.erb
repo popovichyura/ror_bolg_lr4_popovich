@@ -1,0 +1,17 @@
+<%= link_to "Upload new photo", new_photo_path, class: "btn btn-default" %>
+<br/>
+<%if @photos == [] %>
+<p>Photos ninche</p>
+<br/>
+<% else %>
+<%  @photos.each do |photo|%>
+  <%=image_tag(photo.photo_url, width: 300, height: 300) %>
+  <br/>
+  <p>Author: <%= photo.user.nickname %> | 
+  Category: <%= photo.category.name %> |
+  Photo: <%= photo.name %> |
+  <%= link_to "Like", vote_photo_path(photo.id) %> (<%= @like[photo.id]%>)
+
+  <br/>
+  <%end%>
+<%end%>

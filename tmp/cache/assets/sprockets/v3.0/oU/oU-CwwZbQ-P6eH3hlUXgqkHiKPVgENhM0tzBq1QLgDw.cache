@@ -1,0 +1,10 @@
+{:uriI"|file://app/assets/config/tinymce.yml?type=text/yaml&id=5a635c0e50125afcb29844e949b081aec8147ffecc422a7cc23e1e42ab3036b1:ET:load_pathI"app/assets/config;T:filenameI""app/assets/config/tinymce.yml;T:	nameI"tinymce;T:logical_pathI"tinymce.yml;T:content_typeI"text/yaml;T:sourceI"²toolbar: 'image | undo redo | bold italic forecolor
+| alignleft aligncenter alignright alignjustify 
+| bullist numlist outdent indent | removeformat '
+plugins:
+  - image
+  - link;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"0file-digest://app/assets/config/tinymce.yml;TTF:charsetI"
+utf-8;F:digest"%8çö%³<þHµª€”Ý‡W£žü¢ùÅ[9`:lengthi²:dependencies_digest"%©Ý{QrmÁôµÑwQ`É=’R÷gšÁÛV¶8:idI"E5a635c0e50125afcb29844e949b081aec8147ffecc422a7cc23e1e42ab3036b1;F:
+mtimel+XZ
